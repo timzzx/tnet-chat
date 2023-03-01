@@ -59,10 +59,18 @@ func (l *LoginLogic) Do(req []byte, agent types.Connection) {
 		return
 	}
 	resp, _ := json.Marshal(jsontype.LoginRsp{
-		Code: 200,
-		Msg:  "登录成功",
+		UserId: int(user.ID),
+		Code:   200,
+		Msg:    "登录成功",
 	})
 	msg, _ := tnet.Pack(l.id, resp)
 	agent.Send(msg)
+
+	// resp, _ = json.Marshal(jsontype.LoginRsp{
+	// 	Code: 200,
+	// 	Msg:  user.Name + "登录成功",
+	// })
+	// msg, _ = tnet.Pack(1001, resp)
+	// agent.Send(msg)
 	return
 }

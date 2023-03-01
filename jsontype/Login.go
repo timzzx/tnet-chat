@@ -8,6 +8,7 @@ type LoginReq struct {
 
 // 登录返回
 type LoginRsp struct {
-	Code int64  `json:"code"`
-	Msg  string `json:"msg"`
+	UserId int    `json:"user_id"`
+	Code   int64  `json:"code"`
+	Msg    string `json:"msg"`
 }

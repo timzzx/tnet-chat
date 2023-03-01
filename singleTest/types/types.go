@@ -8,4 +8,6 @@ type Agent interface {
 	Send(rid int, data []byte) error
 	GetResp() <-chan []byte
 	Stop()
+	GetUserId() int
+	SetUserId(userId int)
 }

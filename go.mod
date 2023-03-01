@@ -4,7 +4,7 @@ go 1.19
 
 require (
 	github.com/redis/go-redis/v9 v9.0.2
-	github.com/timzzx/tnet v0.0.0-20230301102227-6b68b40f07f1
+	github.com/timzzx/tnet v0.0.0-20230301143812-f0da6a5cafc0
 	github.com/zeromicro/go-zero v1.4.4
 	gorm.io/driver/mysql v1.4.7
 	gorm.io/gen v0.3.21

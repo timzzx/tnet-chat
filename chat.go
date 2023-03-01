@@ -37,6 +37,7 @@ func main() {
 
 	// 增加路由
 	s.AddHandlers(varx.LOGIN, handler.LoginHandler(varx.LOGIN, ctx))
+	s.AddHandlers(varx.ROOMADD, handler.RoomAddHandler(varx.ROOMADD, ctx))
 	// 服务启动
 	s.Start()
 }

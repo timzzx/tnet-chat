@@ -39,6 +39,7 @@ to quickly create a Cobra application.`,
 
 		// 监听消息接收
 		go client.Reader()
+		go client.PushShow()
 
 		buf := bufio.NewReader(os.Stdin)
 		// 监听输入

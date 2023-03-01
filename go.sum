@@ -867,6 +867,8 @@ github.com/timzzx/tnet v0.0.0-20230228081458-0eb1bdb170d4 h1:xGqbkljOshYLHqJM/Xv
 github.com/timzzx/tnet v0.0.0-20230228081458-0eb1bdb170d4/go.mod h1:kFYi2qhpvx5elouJm+p2cEY7Xfqz0uoSC4VIKcOG+T8=
 github.com/timzzx/tnet v0.0.0-20230301102227-6b68b40f07f1 h1:3hoNJGs5ycqf2RYbPmD736tXQGBh6FHe7lSy7W40XbA=
 github.com/timzzx/tnet v0.0.0-20230301102227-6b68b40f07f1/go.mod h1:kFYi2qhpvx5elouJm+p2cEY7Xfqz0uoSC4VIKcOG+T8=
+github.com/timzzx/tnet v0.0.0-20230301143812-f0da6a5cafc0 h1:ARn3N06H4jL/XwuDkLHCgiR4ne+rRZJHBXW575GVJHQ=
+github.com/timzzx/tnet v0.0.0-20230301143812-f0da6a5cafc0/go.mod h1:kFYi2qhpvx5elouJm+p2cEY7Xfqz0uoSC4VIKcOG+T8=
 github.com/tklauser/go-sysconf v0.3.10/go.mod h1:C8XykCvCb+Gn0oNCWPIlcb0RuglQTYaQ2hGm7jmxEFk=
 github.com/tklauser/numcpus v0.4.0/go.mod h1:1+UI3pD8NW14VMwdgJNJ1ESk2UnwhAnz5hMwiKKqXCQ=
 github.com/urfave/cli/v2 v2.3.0/go.mod h1:LJmUH05zAU44vOAcrfzZQKsZbVcdbOG8rtL3/XcUArI=
