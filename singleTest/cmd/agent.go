@@ -56,7 +56,11 @@ to quickly create a Cobra application.`,
 			if !ok {
 				fmt.Println("指令不存在")
 			} else {
-				handeler.Do(client)
+				err := handeler.Do(client)
+				if err != nil {
+					fmt.Println("handler err:", err)
+					return
+				}
 			}
 
 		}

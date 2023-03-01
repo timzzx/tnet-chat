@@ -10,13 +10,16 @@ import (
 type Login struct {
 }
 
-func (h *Login) Do(agent types.Agent) {
+func (h *Login) Do(agent types.Agent) error {
 	// 登录
 	req, _ := json.Marshal(jsontype.LoginReq{
 		Name:     "timzzx",
 		Password: "123456",
 	})
-	if err := agent.Send(1, req); err != nil {
-		fmt.Println("消息发送失败", err)
+	if err := agent.Send(122, req); err != nil {
+		return err
 	}
+	msg := <-agent.GetResp()
+	fmt.Println(">Resp:" + string(msg))
+	return nil
 }
